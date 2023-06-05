@@ -1,0 +1,1154 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "mainImg": "https://images.uzum.uz/chm62sr6edfostife3f0/t_product_540_high.jpg#1685423206060",
+      "name": "Женские кроссовки от GRN",
+      "priceInfo": {
+        "price": 250000,
+        "discount": false
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "LLC STOCKDIGGER international",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Сиреневый",
+          "sizes": [
+            { "size": 35, "count": 0 },
+            { "size": 36, "count": 2 },
+            { "size": 37, "count": 5 },
+            { "size": 38, "count": 1 },
+            { "size": 39, "count": 0 },
+            { "size": 40, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/chm62sr6edfostife3f0/t_product_540_high.jpg#1685423206060",
+            "https://images.uzum.uz/chm62sv5d7kom1tg8u5g/original.jpg",
+            "https://images.uzum.uz/cgpuglng49devoadbotg/original.jpg",
+            "https://images.uzum.uz/cgpuglnhj8j9g69cmfp0/original.jpg",
+            "https://images.uzum.uz/cgpuglng49devoadbou0/original.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Черный",
+          "sizes": [
+            { "size": 35, "count": 1 },
+            { "size": 36, "count": 2 },
+            { "size": 37, "count": 2 },
+            { "size": 38, "count": 2 },
+            { "size": 39, "count": 0 },
+            { "size": 40, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/ch3nho357mg830i23dtg/original.jpg",
+            "https://images.uzum.uz/cgpugqr57mg9720edo90/original.jpg",
+            "https://images.uzum.uz/cgpugqnhj8j9g69cmfqg/original.jpg",
+            "https://images.uzum.uz/cgpugqvg49devoadbovg/original.jpg",
+            "https://images.uzum.uz/cgpugqnhj8j9g69cmfr0/original.jpg"
+          ]
+        }
+      ],
+      "bought": 22,
+      "etc": [
+        "- Подошва 100% EVA",
+        "- Подметка 100% резина высокого трения",
+        "- Нереально легкие и мягкие",
+        "- Стрейчевый верх – комфортные как носки",
+        "- Отличная фиксация стопы"
+      ],
+      "desc": [
+        "Бренд GRN занимает №4 место в Юго-Восточной Азии, относится к ТОПовому сегменту качества.",
+        "Бренд GRN один из самых старейших брендов обуви и одежды в Азии - был основан в 1978 году.",
+        "Бренд GRN имеет более 12000 магазинов собственной розницы в таких странах",
+        "как: Китай, Япония, Вьетнам, Малайзия, Марокко, Югославия, Словения, Польша.",
+        "Бренд GRN ориентирован на выпуск высококачественной одежды и обуви для спорта и для носки на каждый день.",
+        "Суммарные объемы выпускаемой обуви – 20.000.000 пар в год, что делает бренд GRN одним из самых крупных брендов не только в Азии, но и в мире.",
+        "Отличительные черты продукции GRN – высокое качество, комфортные лекала и стиль."
+      ]
+    },
+    {
+      "id": 2,
+      "mainImg": "https://images.uzum.uz/cg67bu7g49devoaaad6g/t_product_540_high.jpg#1685425684163",
+      "name": "Кроссовки сеточные совместного производства",
+      "priceInfo": {
+        "price": 150000,
+        "discount": 40
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "Производитель обуви",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Аметистовый",
+          "sizes": [
+            { "size": 36, "count": 8 },
+            { "size": 37, "count": 9 },
+            { "size": 38, "count": 1 },
+            { "size": 39, "count": 2 },
+            { "size": 40, "count": 1 },
+            { "size": 41, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cg67dmnhgiov1qie6pog/original.jpg",
+            "https://images.uzum.uz/cg67dmnhgiov1qie6pp0/original.jpg",
+            "https://images.uzum.uz/cg67dmvhj8j9g699ku80/original.jpg",
+            "https://images.uzum.uz/cg67dmng49devoaaadvg/original.jpg",
+            "https://images.uzum.uz/cg67dmvg49devoaaae00/original.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Розовый",
+          "sizes": [
+            { "size": 36, "count": 6 },
+            { "size": 37, "count": 6 },
+            { "size": 38, "count": 2 },
+            { "size": 39, "count": 2 },
+            { "size": 40, "count": 5 },
+            { "size": 41, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cg67bu7g49devoaaad6g/t_product_540_high.jpg#1685425684163",
+            "https://images.uzum.uz/cg67bu7hj8j9g699kte0/original.jpg",
+            "https://images.uzum.uz/cg67bufg49devoaaad7g/original.jpg",
+            "https://images.uzum.uz/cg67bu7hgiov1qie6p1g/original.jpg",
+            "https://images.uzum.uz/cg67bufhj8j9g699kteg/original.jpg"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "Салатовый",
+          "sizes": [
+            { "size": 36, "count": 7 },
+            { "size": 37, "count": 1 },
+            { "size": 38, "count": 0 },
+            { "size": 39, "count": 8 },
+            { "size": 40, "count": 0 },
+            { "size": 41, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cg67csnhj8j9g699ktq0/original.jpg",
+            "https://images.uzum.uz/cg67csng49devoaaadig/original.jpg",
+            "https://images.uzum.uz/cg67csvhgiov1qie6p9g/original.jpg",
+            "https://images.uzum.uz/cg67csnhj8j9g699ktqg/original.jpg",
+            "https://images.uzum.uz/cg67csvg49devoaaadj0/original.jpg"
+          ]
+        }
+      ],
+      "bought": 25,
+      "etc": ["Подошва EVA, верх - искуственная кожа в композиции с тканью"],
+      "desc": [
+        "Кроссовки сеточные совместного производства, доступная цена - хорошее качество."
+      ]
+    },
+    {
+      "id": 3,
+      "mainImg": "https://images.uzum.uz/ch4ihu357mg830i28m4g/t_product_540_high.jpg#1685426240245",
+      "name": "Кроссовки мужские, летние, сетчатые, дышащие",
+      "priceInfo": {
+        "price": 150000,
+        "discount": 35
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "HAPPY SHOES 2",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Молочный",
+          "sizes": [
+            { "size": 40, "count": 5 },
+            { "size": 41, "count": 0 },
+            { "size": 42, "count": 21 },
+            { "size": 43, "count": 31 },
+            { "size": 44, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/ch4ihu357mg830i28m4g/t_product_540_high.jpg#1685426240245",
+            "https://images.uzum.uz/ch4ihu7hj8j9g69ej6jg/original.jpg",
+            "https://images.uzum.uz/ch4ihu7g49devoaf8p00/original.jpg",
+            "https://images.uzum.uz/ch4ihu7g49devoaf8ovg/original.jpg",
+            "https://images.uzum.uz/ch4ihu7g49devoaf8ov0/original.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Карамельный",
+          "sizes": [
+            { "size": 40, "count": 27 },
+            { "size": 41, "count": 27 },
+            { "size": 42, "count": 62 },
+            { "size": 43, "count": 58 },
+            { "size": 44, "count": 24 }
+          ],
+          "images": [
+            "https://images.uzum.uz/ch4f42b57mg830i27dig/original.jpg",
+            "https://images.uzum.uz/ch4f42b57mg830i27di0/original.jpg",
+            "https://images.uzum.uz/ch4f42b57mg830i27dj0/original.jpg",
+            "https://images.uzum.uz/ch4f42fg49devoaf7dag/original.jpg",
+            "https://images.uzum.uz/ch4f42fhj8j9g69ei1dg/original.jpg"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "Синий меланж",
+          "sizes": [
+            { "size": 40, "count": 2 },
+            { "size": 41, "count": 0 },
+            { "size": 42, "count": 9 },
+            { "size": 43, "count": 15 },
+            { "size": 44, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/ch4ii5vg49devoaf8p40/original.jpg",
+            "https://images.uzum.uz/ch4ii5vhj8j9g69ej6n0/original.jpg",
+            "https://images.uzum.uz/ch4ii67g49devoaf8p50/original.jpg",
+            "https://images.uzum.uz/ch4ii5vg49devoaf8p3g/original.jpg",
+            "https://images.uzum.uz/ch4ii67g49devoaf8p4g/original.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "color": "Черный",
+          "sizes": [
+            { "size": 40, "count": 1 },
+            { "size": 41, "count": 1 },
+            { "size": 42, "count": 22 },
+            { "size": 43, "count": 33 },
+            { "size": 44, "count": 4 }
+          ],
+          "images": [
+            "https://images.uzum.uz/ch7o7fnhj8j2b6b6o56g/original.jpg",
+            "https://images.uzum.uz/ch7o7fnhj8j2b6b6o570/original.jpg",
+            "https://images.uzum.uz/ch7o7f96i6dvgfec5hrg/original.jpg",
+            "https://images.uzum.uz/ch7o7fd01ighkhg8t8tg/original.jpg",
+            "https://images.uzum.uz/ch7o7fl01ighkhg8t8u0/original.jpg"
+          ]
+        }
+      ],
+      "bought": 142,
+      "etc": ["Tекстильный", "Воздухопроницаемый", "Лето", "Удобный"],
+      "desc": [
+        "Мы представляем вам нашу стильную женскую и мужскую летнюю обувь для классического спортивного стиля модели 2023.Кроссовки удобны для физкультуру, также для работы， идеально подходит для домашней обуви и школьной обуви для ходьбы и спорта. Подходит для теплых и прохладных сезонов. Шнурки обеспечивают лучшую посадку обуви на ногу. Изготовлен из высококачественной искусственной кожи ПВХ отлично проводит равномерное тепло на оптимальной платформе из поливинилхлорида. Эти кроссовки не доставляют дискомфорта при ежедневном ношении, кожа ног не потеет и они не утомляют вас благодаря легкому весу обуви.Очень удобны для поездок на дачу,в походы и для активных развлечений."
+      ]
+    },
+    {
+      "id": 4,
+      "mainImg": "https://images.uzum.uz/cgu0dpvg49devoae5c2g/original.jpg",
+      "name": "Женские сланцы со стразами",
+      "priceInfo": {
+        "price": 80000,
+        "discount": 40
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "Shoe's SHOP",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "",
+          "sizes": [
+            { "size": 36, "count": 21 },
+            { "size": 37, "count": 20 },
+            { "size": 38, "count": 25 },
+            { "size": 39, "count": 15 },
+            { "size": 40, "count": 22 },
+            { "size": 41, "count": 20 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgu0dpvg49devoae5c2g/original.jpg",
+            "https://images.uzum.uz/cgu0dq357mg9720f7oi0/original.jpg",
+            "https://images.uzum.uz/cgu0dpvhj8j9g69dgkmg/original.jpg",
+            "https://images.uzum.uz/cgu0dpvhj8j9g69dgkm0/original.jpg",
+            "https://images.uzum.uz/cgu0dq7g49devoae5c30/original.jpg"
+          ]
+        }
+      ],
+      "bought": 23,
+      "etc": "",
+      "desc": [
+        "Обувь маломерка! Выберите на один размер больше",
+        "Стильные и удобные сланцы - идеальный выбор для жарких летних дней. Эти обувные модели отлично подойдут как для пляжа, так и для городской прогулки. Легкие и износостойкие материалы гарантируют комфорт и долговечность. Мягкая подошва обеспечивает амортизацию при ходьбе, а прочный верх дает устойчивость и защиту от повреждений. Наши сланцы - это модные и практичные обувные аксессуары, которые добавят вашему летнему гардеробу долгожданный завершающий штрих.",
+        "Сланцы изготовлены из высококачественного гипоаллергенного этиленвинилацетата (ЭВА) легко моются, быстро высыхают. Сделаны из очень лёгкого и прочного материала"
+      ]
+    },
+    {
+      "id": 5,
+      "mainImg": "https://images.uzum.uz/cgv51n7hj8j9g69dming/original.jpg",
+      "name": "Сланцы мужские, резиновые, летние тапочки",
+      "priceInfo": {
+        "price": 100000,
+        "discount": 45
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "Clothe&Shoes",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "",
+          "sizes": [
+            { "size": 38, "count": 4 },
+            { "size": 39, "count": 7 },
+            { "size": 40, "count": 7 },
+            { "size": 41, "count": 0 },
+            { "size": 42, "count": 1 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgv51n7hj8j9g69dming/original.jpg",
+            "https://images.uzum.uz/cgv51o357mg9720fdp6g/original.jpg",
+            "https://images.uzum.uz/cgv51p7hj8j9g69dmip0/original.jpg",
+            "https://images.uzum.uz/cgv51q357mg9720fdp8g/original.jpg",
+            "https://images.uzum.uz/ch152evhj8j9g69e22h0/original.jpg"
+          ]
+        }
+      ],
+      "bought": 8,
+      "etc": [
+        "Материал обуви - ЭВА",
+        "Коллекция - весна, лето",
+        "Назначение обуви - для дома; пляж; повседневная",
+        "Особенности модели - мягкая эластичная резинка",
+        "Комплектация - Сланцы мужские резиновые 1 пара",
+        "Ремешок выполнен из EVA, не натирает кожу"
+      ],
+      "desc": [
+        "Перед тем как сделать заказ просим ориентироваться по размерной таблице",
+        "Резиновые домашние тапочки мужские для дома из резинового материала, с открытым мыском и твердой подошвой подарят комфорт и уют вашим ножкам! Сланцы мужские для пляжа - это именно то - что вы искали! Самое главное, наш эко материал резиновых тапочек не даст вашей ноге вспотеть! Что касается подошвы, она легко отмывается и не скользит по полу, так же она хорошо гнется, что удобно во время путешествия!) Сланцы на платформе мужские ассоциируются у нас с приятным летним отдыхом и комфортом! Как приятно прийти с учебы или работы и сунуть усталые ноги в легкие и уютные резиновые тапочки мужские. ТАПОЧКИ для пляжа сауны бассейна больницы комнатные этиленвинилацетата (ЭВА) произведено литьевым способом. Обувь отличается повышенной легкостью ,эластичностью ,гипоаллергенна. Не подвержена воздействию грибков и бактерий .Тапочки данной модели рекомендуются для использования в хозяйственных, санитарно-гигиенических помещениях, а также на пляже и в бассейне."
+      ]
+    },
+    {
+      "id": 6,
+      "mainImg": "https://images.uzum.uz/ch1a2mr57mg9720fr5e0/original.jpg",
+      "name": "Сланцы унисекс",
+      "priceInfo": {
+        "price": 100000,
+        "discount": 30
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "SPORTS",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Темно-синий",
+          "sizes": [
+            { "size": 39, "count": 7 },
+            { "size": 40, "count": 6 },
+            { "size": 41, "count": 8 },
+            { "size": 42, "count": 7 },
+            { "size": 43, "count": 5 },
+            { "size": 44, "count": 1 }
+          ],
+          "images": [
+            "https://images.uzum.uz/ch1a2mr57mg9720fr5e0/original.jpg",
+            "https://images.uzum.uz/ch1a2mvg49devoaeogrg/original.jpg",
+            "https://images.uzum.uz/ch1a2mvhj8j9g69e37tg/original.jpg",
+            "https://images.uzum.uz/ch1a2mvhj8j9g69e37t0/original.jpg",
+            "https://images.uzum.uz/ch1a2n357mg9720fr5eg/original.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Черный",
+          "sizes": [
+            { "size": 39, "count": 9 },
+            { "size": 40, "count": 8 },
+            { "size": 41, "count": 8 },
+            { "size": 42, "count": 4 },
+            { "size": 43, "count": 8 },
+            { "size": 44, "count": 6 }
+          ],
+          "images": [
+            "https://images.uzum.uz/ch1a2png49devoaeogt0/original.jpg",
+            "https://images.uzum.uz/ch1a2pj57mg9720fr5g0/original.jpg",
+            "https://images.uzum.uz/ch1a2png49devoaeogtg/original.jpg",
+            "https://images.uzum.uz/ch1a2png49devoaeogsg/original.jpg",
+            "https://images.uzum.uz/ch1a2png49devoaeogu0/original.jpg"
+          ]
+        }
+      ],
+      "bought": 11,
+      "etc": "",
+      "desc": [
+        "Мужские сланцы для активного отдыха на каждый день. Классический стиль без лишних деталей подчеркнет ваш брутальный образ. Ремешок выполнен из EVA, современного экологичного и антигрибкового материала. Он хорошо тянется и позволяет быстро надеть и снять тапочки. Перфорация на ремне дает коже дышать. Глубокий протектор обеспечит хорошее сцепление даже с мокрыми поверхностями, поэтому сланцы подходят для бассейнов, спа и пляжного отдыха."
+      ]
+    },
+    {
+      "id": 7,
+      "mainImg": "https://images.uzum.uz/chetmnd6sfhndlbm1vi0/t_product_540_high.jpg#1685434530599",
+      "name": "Кроссовки для мальчиков, 3 разных цвета",
+      "priceInfo": {
+        "price": 250000,
+        "discount": 58.4
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "Yaxshi Shoes",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Индиго",
+          "sizes": [
+            { "size": 35, "count": 0 },
+            { "size": 36, "count": 0 },
+            { "size": 37, "count": 0 },
+            { "size": 38, "count": 1 },
+            { "size": 39, "count": 0 },
+            { "size": 40, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/chetmnd6sfhndlbm1vi0/original.jpg",
+            "https://images.uzum.uz/chetmnb6edfostiens90/t_product_240_high.jpg",
+            "https://images.uzum.uz/chetmnf5d7kom1tfj470/t_product_240_high.jpg",
+            "https://images.uzum.uz/chetmnb6edfostiens8g/t_product_240_high.jpg",
+            "https://images.uzum.uz/chetmnd6sfhndlbm1vhg/t_product_240_high.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Лесной зеленый",
+          "sizes": [
+            { "size": 35, "count": 0 },
+            { "size": 36, "count": 0 },
+            { "size": 37, "count": 0 },
+            { "size": 38, "count": 0 },
+            { "size": 39, "count": 0 },
+            { "size": 40, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cg8u0mfg49devoaanp30/t_product_240_high.jpg",
+            "https://images.uzum.uz/cg8u0mfhj8j9g69a1vig/t_product_240_high.jpg",
+            "https://images.uzum.uz/cg8u0mfg49devoaanp2g/t_product_240_high.jpg",
+            "https://images.uzum.uz/cg8u0mfhgiov1qiek040/t_product_240_high.jpg",
+            "https://images.uzum.uz/cg8u0mfg49devoaanp3g/t_product_240_high.jpg"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "Серый меланж",
+          "sizes": [
+            { "size": 35, "count": 0 },
+            { "size": 36, "count": 0 },
+            { "size": 37, "count": 0 },
+            { "size": 38, "count": 0 },
+            { "size": 39, "count": 0 },
+            { "size": 40, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgamodnhj8j9g69a9ihg/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgamodnhgiov1qierag0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgamodnhj8j9g69a9ii0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgamodng49devoaave0g/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgamodng49devoaave00/t_product_240_high.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "color": "Черный",
+          "sizes": [
+            { "size": 35, "count": 0 },
+            { "size": 36, "count": 0 },
+            { "size": 37, "count": 0 },
+            { "size": 38, "count": 0 },
+            { "size": 39, "count": 0 },
+            { "size": 40, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgamolvg49devoaave40/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgamolvhj8j9g69a9ik0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgamolvhj8j9g69a9il0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgamolvhj8j9g69a9ikg/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgamolvhgiov1qieraig/t_product_240_high.jpg"
+          ]
+        }
+      ],
+      "bought": 3,
+      "etc": ["Ishlab chiqarilgan mamlakat - Xitoy"],
+      "desc": [
+        "Кроссовки изики идеально комфортные для ходьбы, бега, пеших прогулок, путешествий, дачи, работы, тренировки в ",
+        "зале и на улице, спорта, физкультуры, йоги и любого активного и повседневного отдыха на открытом воздухе. ",
+        "Сетчатый верх на этих кроссовках сохраняет ваши ноги воздухопроницаемыми и сухими, когда вы бегаете или ",
+        "ходите."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Мужские кроссовки, 40-44",
+      "mainImg": "https://images.uzum.uz/cfhm1sp25ku4g9bb86vg/t_product_540_high.jpg#1685434530549",
+      "priceInfo": {
+        "price": 550000,
+        "discount": 9.09
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "SPORTS",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "",
+          "sizes": [
+            { "size": 40, "count": 0 },
+            { "size": 41, "count": 0 },
+            { "size": 42, "count": 1 },
+            { "size": 43, "count": 0 },
+            { "size": 44, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cfhm1sp25ku4g9bb86vg/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfhm1svhj8jfj06jf4e0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfhm1sp25ku4g9bb86v0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfhm1sp25ku4g9bb8700/t_product_240_high.jpg"
+          ]
+        }
+      ],
+      "bought": 191,
+      "etc": [
+        "Назначение обуви: повседневная / спорт",
+        "Всесезонные",
+        "Размер 40-44",
+        "Для мужчин и женщин",
+        "Состав: эко кожа, ПВХ, текстиль, кожа"
+      ],
+      "desc": [
+        "Самая трендовая модель этого сезона, кроссовки женские и кроссовки мужские. Стильные кроссовки джорданы 4 , ",
+        "унисекс - идеальный вариант на весну и осень. Демисезонные кроссовки будут уместно выглядеть в любой ситуации, ",
+        "подойдут для спорта, офиса, туризма и на каждый день. спортивные кроссовки базовая вещь гардероба для мужчин,",
+        "парней, юношей и мальчиков. Это универсальная летняя и осенняя мужская обувь, подходящая ко многим стилям ",
+        "одежды. Они удобны для повседневной носки, путешествий, занятий спортом в зале и на улице, посиделок с ",
+        "друзьями, свиданий, деловых встреч. Пожалуй, кроссовки не смогут заменить только туфли к строгому костюму. "
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Кроссовки для детей Турция",
+      "mainImg": "https://images.uzum.uz/cfn06i7hgiopn8lcf7gg/t_product_540_high.jpg#1685435495306",
+      "priceInfo": {
+        "price": 490000,
+        "discount": 36.73
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "Sibebl kids store",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "",
+          "sizes": [
+            { "size": 31, "count": 0 },
+            { "size": 32, "count": 1 },
+            { "size": 33, "count": 0 },
+            { "size": 34, "count": 0 },
+            { "size": 35, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cfn06i7hgiopn8lcf7gg/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfn06i125kualhm8mon0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfn06i5ennt3ujbse8n0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfn06i7hgiopn8lcf7h0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfn06i5ennt3ujbse8mg/t_product_240_high.jpg"
+          ]
+        }
+      ],
+      "bought": 4,
+      "etc": null,
+      "desc": [
+        "Вид обуви: кроссовки",
+        "Для кого: для мальчиков и девочек",
+        "Сезон: любой",
+        "Материал верха: кожа",
+        "Внутренний материал: текстиль"
+      ]
+    },
+    {
+      "id": 10,
+      "mainImg": "https://images.uzum.uz/cfl2aktennt3ujbs7j6g/t_product_540_high.jpg#1685435920970",
+      "name": "Кроссовки для мальчиков, 3 разных цвета",
+      "priceInfo": {
+        "price": 1100000,
+        "discount": 50
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "7SABER",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Бирюзовый",
+          "sizes": [
+            { "size": 34, "count": 0 },
+            { "size": 35, "count": 0 },
+            { "size": 36, "count": 0 },
+            { "size": 37, "count": 1 },
+            { "size": 38, "count": 0 },
+            { "size": 39, "count": 0 },
+            { "size": 40, "count": 0 },
+            { "size": 41, "count": 0 },
+            { "size": 42, "count": 0 },
+            { "size": 43, "count": 0 },
+            { "size": 44, "count": 0 },
+            { "size": 45, "count": 0 },
+            { "size": 46, "count": 0 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cfll4e5ennt3ujbs9ih0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfll4e925kualhm8i5d0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfll4e5ennt3ujbs9ihg/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfll4e7hgiopn8lcaj6g/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfll4edennt3ujbs9ii0/t_product_240_high.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Красный",
+          "sizes": [
+            { "size": 34, "count": 0 },
+            { "size": 35, "count": 0 },
+            { "size": 36, "count": 0 },
+            { "size": 37, "count": 0 },
+            { "size": 38, "count": 0 },
+            { "size": 39, "count": 0 },
+            { "size": 40, "count": 0 },
+            { "size": 41, "count": 0 },
+            { "size": 42, "count": 0 },
+            { "size": 43, "count": 0 },
+            { "size": 44, "count": 0 },
+            { "size": 45, "count": 0 },
+            { "size": 46, "count": 1 }
+          ],
+          "images": [
+            "https://images.uzum.uz/cfl2aktennt3ujbs7j6g/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfl2aktennt3ujbs7j60/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfl2al125kualhm8g5ng/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfl2al5ennt3ujbs7j70/t_product_240_high.jpg",
+            "https://images.uzum.uz/cfl2aldennt3ujbs7j7g/t_product_240_high.jpg"
+          ]
+        }
+      ],
+      "bought": 2,
+      "etc": null,
+      "desc": [
+        "Верх: дышаший материал из шелка высокой плотностии и нейлоновой нити, переплетение нитей, очень крепкие и ",
+        "изностойкие. Промежуточная подошва термопластичный полиуретан (обеспечивает амортизацию, легкий и",
+        "износостойкий материал)."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Кроссовки WEN UNISEX",
+      "mainImg": "https://images.uzum.uz/chjgepd6sfhndlbmffs0/t_product_540_high.jpg#1685436539185",
+      "priceInfo": {
+        "price": 300000,
+        "discount": 6.67
+      },
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "One More women",
+      "delivery": "1 день, бесплатно",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "",
+          "sizes": [{ "size": 37, "count": 0 }],
+          "images": [
+            "https://images.uzum.uz/chjgepd6sfhndlbmffs0/t_product_240_high.jpg",
+            "https://images.uzum.uz/chjgepd40v9pplt223j0/t_product_240_high.jpg",
+            "https://images.uzum.uz/chjgepf5d7kom1tg0me0/t_product_240_high.jpg",
+            "https://images.uzum.uz/chjgepb6edfostif5np0/t_product_240_high.jpg",
+            "https://images.uzum.uz/chjgepb6edfostif5npg/t_product_240_high.jpg"
+          ]
+        }
+      ],
+      "bought": 2,
+      "etc": null,
+      "desc": ["Стильные кроссовки юнисекс"]
+    },
+    {
+      "id": 12,
+      "mainImg": "https://images.uzum.uz/cf2ojdgl08k0o9qhsugg/original.jpg",
+      "priceInfo": {
+        "price": 150000,
+        "discount": false
+      },
+      "name": "Krossovkalar Unisex",
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "Adidas",
+      "delivery": "1 kunde tegin",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Kulrang",
+          "sizes": [
+            {
+              "size": 35,
+              "count": 3
+            },
+            {
+              "size": 36,
+              "count": 3
+            },
+            {
+              "size": 37,
+              "count": 3
+            },
+            {
+              "size": 38,
+              "count": 3
+            },
+            {
+              "size": 39,
+              "count": 3
+            },
+            {
+              "size": 40,
+              "count": 3
+            },
+            {
+              "size": 41,
+              "count": 3
+            },
+            {
+              "size": 42,
+              "count": 3
+            },
+            {
+              "size": 43,
+              "count": 3
+            },
+            {
+              "size": 44,
+              "count": 3
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cf2ojdgl08k0o9qhsugg/original.jpg",
+            "https://images.uzum.uz/cf2ojdgl08k0o9qhsugg/original.jpg",
+            "https://images.uzum.uz/cf2ojdgv1htd23akuvlg/original.jpg",
+            "https://images.uzum.uz/cf2ojdgl08k0o9qhsug0/original.jpg",
+            "https://images.uzum.uz/cf2ojdgl08k0o9qhsuh0/original.jpg",
+            "https://images.uzum.uz/cf2ojdivtie1lhbgucc0/original.jpg"
+          ]
+        }
+      ],
+      "bought": 100,
+      "etc": [
+        "EVA materialdan tayyorlangan osti",
+        "Oyoqlarga tushadigan og’irlikni kamaytiradi",
+        "Oyoq kiyim oyoqda sezilmaydi va kiyilishda qulay",
+        "Oyoq kiyim sirpanmaydi",
+        "Oyoq kiyim toza tutish oson"
+      ],
+      "desc": [
+        "TOP taklif qilgan amalda qulay, baquvvat krossovka sport zali va sayrda siz bilan bo’ladi.",
+        "Krossovkaning osti EVA materialidan tayyorlangan bo’lib yurganda amortizatsiya vazifasini bajarib oyoqqa tushadigan og’irlikni kamaytiradi."
+      ]
+    },
+    {
+      "id": 13,
+      "mainImg": "https://images.uzum.uz/cgr6o1ng49devoadjs5g/original.jpg",
+      "priceInfo": {
+        "price": 250000,
+        "discount": 20
+      },
+      "name": "Erkaklar uchun yozgi krossovkalar, to'rli",
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "HAPPY SHOES 2",
+      "delivery": "1 kunde tegin",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Kulrang",
+          "sizes": [
+            {
+              "size": 35,
+              "count": 0
+            },
+            {
+              "size": 36,
+              "count": 3
+            },
+            {
+              "size": 37,
+              "count": 3
+            },
+            {
+              "size": 38,
+              "count": 6
+            },
+            {
+              "size": 39,
+              "count": 3
+            },
+            {
+              "size": 40,
+              "count": 5
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgr6o1ng49devoadjs5g/original.jpg",
+            "https://images.uzum.uz/cgr6o0vhj8j9g69cun50/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgr6o17g49devoadjs4g/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgr6o2fg49devoadjs6g/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgscnqj57mg9720eu0dg/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgscnr7g49devoadro2g/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgscnrnhj8j9g69d6n2g/t_product_240_high.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Koʻk",
+          "sizes": [
+            {
+              "size": 35,
+              "count": 11
+            },
+            {
+              "size": 36,
+              "count": 7
+            },
+            {
+              "size": 37,
+              "count": 3
+            },
+            {
+              "size": 38,
+              "count": 0
+            },
+            {
+              "size": 39,
+              "count": 3
+            },
+            {
+              "size": 40,
+              "count": 0
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgscnsng49devoadro30/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgscnu357mg9720eu0e0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgscnv7hj8j9g69d6n30/t_product_240_high.jpg"
+          ]
+        },
+        {
+          "id": 3,
+          "color": "Qora",
+          "sizes": [
+            {
+              "size": 35,
+              "count": 1
+            },
+            {
+              "size": 36,
+              "count": 12
+            },
+            {
+              "size": 37,
+              "count": 0
+            },
+            {
+              "size": 38,
+              "count": 0
+            },
+            {
+              "size": 39,
+              "count": 3
+            },
+            {
+              "size": 40,
+              "count": 6
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgr6plvg49devoadjsi0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgr6plb57mg9720elvcg/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgr6pl7g49devoadjsh0/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgr6pjvhj8j9g69cunfg/t_product_240_high.jpg"
+          ]
+        }
+      ],
+      "bought": 17,
+      "etc": ["Yozgi krossovkalar", "Yaxshi nafas olish qobiliyati."],
+      "desc": [
+        "Sizga 2023 yilgi klassik sport uslubi uchun zamonaviy ayollar va erkaklar yozgi poyafzallarini taqdim etamiz.Krossovkalar ",
+        "uchun qulay jismoniy tarbiya， shuningdek， ish uchun， yurish va sport uchun uy poyabzali va maktab poyabzali uchun juda",
+        "mos keladi.Issiq va salqin mavsumlar uchun javob beradi.Bog'ichlar poyabzalning oyoqqa yaxshiroq joylashishini ",
+        "ta'minlaydi.Yuqori sifatli sun'iy charmdan tayyorlangan PVX optimal polivinilxlorid platformasida bir xil issiqlikni mukammal",
+        "darajada o'tkazadi.Ushbu krossovkalar kundalik kiyishda noqulaylik tug'dirmaydi， oyoq terisi terlamaydi va poyabzalning engil ",
+        "vazni tufayli sizni charchatmaydi.Mamlakatga sayohat qilish， piyoda yurish va faol o'yin-kulgi uchun juda qulay."
+      ]
+    },
+    {
+      "id": 14,
+      "mainImg": "https://images.uzum.uz/cgq05n7hj8j9g69cn680/original.jpg",
+      "priceInfo": {
+        "price": 1125000,
+        "discount": 80
+      },
+      "name": "ERKE brendidan erkak krossovkalar!",
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "LLC STOCKDIGGER international",
+      "delivery": "1 kunde tegin",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Oq",
+          "sizes": [
+            {
+              "size": 39,
+              "count": 3
+            },
+            {
+              "size": 40,
+              "count": 3
+            },
+            {
+              "size": 41,
+              "count": 3
+            },
+            {
+              "size": 42,
+              "count": 3
+            },
+            {
+              "size": 43,
+              "count": 3
+            },
+            {
+              "size": 44,
+              "count": 3
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgq05n7hj8j9g69cn680/original.jpg",
+            "https://images.uzum.uz/cgq05n357mg9720eefg0/original.jpg",
+            "https://images.uzum.uz/cgq05n357mg9720eefgg/original.jpg",
+            "https://images.uzum.uz/cgq05n357mg9720eefeg/original.jpg",
+            "https://images.uzum.uz/cgq05n7hj8j9g69cn690/original.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Qora",
+          "sizes": [
+            {
+              "size": 39,
+              "count": 3
+            },
+            {
+              "size": 40,
+              "count": 0
+            },
+            {
+              "size": 41,
+              "count": 5
+            },
+            {
+              "size": 42,
+              "count": 3
+            },
+            {
+              "size": 43,
+              "count": 3
+            },
+            {
+              "size": 44,
+              "count": 7
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgq055j57mg9720eef90/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgq055ng49devoadchfg/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgq055nhj8j9g69cn620/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgq055j57mg9720eef8g/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgq055nhj8j9g69cn61g/t_product_240_high.jpg"
+          ]
+        }
+      ],
+      "bought": 100,
+      "etc": [
+        "- Yengil ustki konstruksiya",
+        "- Yuqori darajadagi qulaylik",
+        "Подошва 100% EVA-cupsole"
+      ],
+      "desc": [
+        "ERKE - sport va sport kiyimlari olamidan tashqarida deyarli hech kim eshitmagan sport brendi. Va bu Xitoyning krossovkalar",
+        "brendi bozorda ancha vaqtdan beri (2000 yil 8 iyundan beri) bo'lganiga qaramay.",
+        "Kompaniyaning asoschisi Vu Ronguang edi, ammo rasmiy ravishda brend HongXing ERKE guruhining yirik bo'linmasiga tegishli. ",
+        "Kompaniyaning bosh qarorgohi Xitoyning janubi-sharqiy sohilidagi Syamen shahrida joylashgan.",
+        "Brendni ilgari surish yo'lidagi birinchi jiddiy qadam Gonkong yulduzi Chen Xiaochunning elchi sifatida jalb etilishi bo'ldi (va bu ",
+        "Xiaochunning sport kiyimlari olamiga bilvosita aloqasi borligiga qaramasdan). Uch yildan ko'proq vaqt davomida kompaniya ",
+        "dam olishga va o'z mintaqasida juda mashhur bo'lishga muvaffaq bo'ldi. 2004 yilda brend bir nechta yirik mukofotlarga, ",
+        "jumladan, ishonchli mahsulotlarga ega brend unvoniga sazovor bo'ldi. Xuddi shu yili ERKE o'zining ilmiy tadqiqot markazini ",
+        "ochdi, bu ularga yuqori sifatli sport kiyimlari va poyabzallarini ishlab chiqarish texnologiyasini ishlab chiqish va foydalanish ",
+        "imkonini berdi."
+      ]
+    },
+    {
+      "id": 15,
+      "mainImg": "https://images.uzum.uz/cg6qjdvg49devoaaclag/original.jpg",
+      "priceInfo": {
+        "price": 900000,
+        "discount": 60
+      },
+      "name": "Erkaklar krossovkalari",
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "SPORTS",
+      "delivery": "1 kunde tegin",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Kulrang",
+          "sizes": [
+            {
+              "size": 40,
+              "count": 9
+            },
+            {
+              "size": 41,
+              "count": 16
+            },
+            {
+              "size": 42,
+              "count": 3
+            },
+            {
+              "size": 43,
+              "count": 10
+            },
+            {
+              "size": 44,
+              "count": 0
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgfuhgfg49devoabmm20/t_product_240_high.jpg",
+            "https://images.uzum.uz/cgfuhgng49devoabmm2g/original.jpg",
+            "https://images.uzum.uz/cgfuhgnhj8j9g69b0k00/original.jpg",
+            "https://images.uzum.uz/cgfuhgnhgiov1qifidn0/original.jpg",
+            "https://images.uzum.uz/cgfuhgng49devoabmm30/original.jpg"
+          ]
+        },
+        {
+          "id": 2,
+          "color": "Koʻmir rang",
+          "sizes": [
+            {
+              "size": 40,
+              "count": 0
+            },
+            {
+              "size": 41,
+              "count": 5
+            },
+            {
+              "size": 42,
+              "count": 3
+            },
+            {
+              "size": 43,
+              "count": 3
+            },
+            {
+              "size": 44,
+              "count": 7
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgfuhcnhgiov1qifidkg/original.jpg",
+            "https://images.uzum.uz/cgfuhcng49devoabmm0g/original.jpg",
+            "https://images.uzum.uz/cgfuhcnhgiov1qifidlg/original.jpg",
+            "https://images.uzum.uz/cgfuhcnhgiov1qifidl0/original.jpg"
+          ]
+        }
+      ],
+      "bought": 15,
+      "etc": [""],
+      "desc": [
+        "Skechers uslubidagi krossovkalar har kuni va sport uchun ko'p qirrali bo'lib, Ultra yengil va qulay poyabzal yaratish uchun ",
+        "zamonaviy texnologiyalarning simbiozi bo'lib, ajoyib to'qilgan ustki texnologiya bilan birlashtirilgan. Krossovkalarning yuqori ",
+        "qismi turli xil to'qimalarning iplarini yoki bir xil rangdagi turli xil soyalarni to'qishni o'z ichiga oladi, ular engillik, tozalash, ",
+        "elastiklik, aşınma qarshilik va moslashuvchanlikni ta'minlash uchun ma'lum tartibda to'qiladi. Dantelsiz ayollar va erkaklar ",
+        "uchun to'qimachilik krossovkalari oyoq shakliga mos keladi, bir qismli elastik yuqoriga ega. Sport poyafzallari keng ",
+        "iste'molchilar uchun, sayyohlik va ochiq havoda dam olish uchun eskizlar."
+      ]
+    },
+    {
+      "id": 16,
+      "mainImg": "https://images.uzum.uz/cgqfu57g49devoadeuf0/original.jpg",
+      "priceInfo": {
+        "price": 310000,
+        "discount": 10
+      },
+      "name": "Erkaklar uchun krossovkalar",
+      "isFavorite": false,
+      "isInCart": false,
+      "salesman": "BROZZO",
+      "delivery": "1 kunde tegin",
+      "productInfo": [
+        {
+          "id": 1,
+          "color": "Toʻq koʻk",
+          "sizes": [
+            {
+              "size": 40,
+              "count": 9
+            },
+            {
+              "size": 41,
+              "count": 16
+            },
+            {
+              "size": 42,
+              "count": 3
+            },
+            {
+              "size": 43,
+              "count": 10
+            },
+            {
+              "size": 44,
+              "count": 12
+            }
+          ],
+          "images": [
+            "https://images.uzum.uz/cgqfu57g49devoadeuf0/original.jpg",
+            "https://images.uzum.uz/cgqfu5fhj8j9g69cplt0/original.jpg",
+            "https://images.uzum.uz/cgqfu5357mg9720eguj0/original.jpg",
+            "https://images.uzum.uz/cgqfu57hj8j9g69cplsg/original.jpg"
+          ]
+        }
+      ],
+      "bought": 3,
+      "etc": [""],
+      "desc": [
+        " Yoz mavsumi uchun qulay, yengil taglikga ega, oyoqni terlatmaydi va qulay joylashish uchun paypoqqa o'xshash Bipstep ",
+        "konstruktsiyasiga ega. Kun bo'yi qulaylik uchun yostiqli havo bilan sovutilgan xotira ko'piklik oyoq tagligi. Moslashuvchan",
+        "kauchik taglik"
+      ]
+    }
+  ],
+  "banner": [
+    "https://i.pinimg.com/originals/9c/9f/0c/9c9f0c5221ef90c7d05ba151671bf482.png",
+    "https://i.pinimg.com/originals/4e/31/42/4e3142435b7a0a2f5f1229db876c7ed4.jpg",
+    "https://static.wixstatic.com/media/7f5d70_f0b7069e653c44f5b4cd3663e0b27827~mv2.jpg",
+    "https://pbs.twimg.com/media/DTQWE9aX4AAKPyd?format=jpg&name=4096x4096"
+  ]
+}
