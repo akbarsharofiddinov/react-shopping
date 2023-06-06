@@ -23,8 +23,8 @@ const ProductBody: React.FC = () => {
 
   if (isError || (products && products?.length <= 0)) {
     navigate("home-error");
-    return <></>
-  } else return (
+  }
+  return (
     <section className="section-app">
       {isLoading ? (
         <LoadingProducts />
