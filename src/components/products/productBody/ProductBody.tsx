@@ -1,8 +1,12 @@
 import React from "react";
 import { useGetProductsQuery } from "@store/apiRTK/apiRTK";
 import ProductItem from "./productItem/ProductItem";
+import LoadingProducts from "./loadingProducts/LoadingProducts";
+import { useNavigate } from "react-router-dom";
 
 const ProductBody: React.FC = () => {
+  const navigate = useNavigate();
+
   const { data: products, isLoading, isError } = useGetProductsQuery();
 
   if (!localStorage.getItem("isFavArr")) {
@@ -17,20 +21,19 @@ const ProductBody: React.FC = () => {
     }
   }
 
-  return (
+  if (isError || (products && products?.length <= 0)) {
+    navigate("home-error");
+    return <></>
+  } else return (
     <section className="section-app">
       {isLoading ? (
-        <h1>Loading...</h1>
-      ) : isError ? (
-        <h1>Error</h1>
-      ) : products ? (
+        <LoadingProducts />
+      ) : (
         <div className="grid grid-cols-4 gap-[20px]">
-          {products.map((product) => (
+          {products?.map((product) => (
             <ProductItem key={product.id} data={product} />
           ))}
         </div>
-      ) : (
-        <h1>No Data</h1>
       )}
     </section>
   );

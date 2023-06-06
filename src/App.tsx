@@ -1,9 +1,16 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import { Layout } from "./components";
 import { routes } from "./routes";
 
 const App: React.FC = () => {
+
+  const navigate = useNavigate()
+
+  React.useEffect(() => {
+    navigate("/")
+  }, [])
+
   return (
     <Routes>
       <Route path="/" element={<Layout />}>

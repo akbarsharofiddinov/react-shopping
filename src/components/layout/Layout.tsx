@@ -7,7 +7,6 @@ const Layout: React.FC = () => {
     <>
       <Header />
       <Outlet />
-      <footer>Footer</footer>
     </>
   );
 };

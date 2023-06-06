@@ -1,4 +1,4 @@
-import { Home, Cart, Favourite, Profile } from "@pages/index";
+import { Home, Cart, Favourite, Profile, HomeError } from "@pages/index";
 
 export const routes = [
   {
@@ -17,4 +17,8 @@ export const routes = [
     RouteElement: Profile,
     path: "profile",
   },
+  {
+    RouteElement: HomeError,
+    path: "home-error",
+  }
 ];

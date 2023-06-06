@@ -1150,5 +1150,12 @@
     "https://i.pinimg.com/originals/4e/31/42/4e3142435b7a0a2f5f1229db876c7ed4.jpg",
     "https://static.wixstatic.com/media/7f5d70_f0b7069e653c44f5b4cd3663e0b27827~mv2.jpg",
     "https://pbs.twimg.com/media/DTQWE9aX4AAKPyd?format=jpg&name=4096x4096"
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "akbar",
+      "password": "akbar12345"
+    }
   ]
 }
