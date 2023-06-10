@@ -1,10 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { apiRTK } from "./apiRTK/apiRTK";
-import { setupListeners } from "@reduxjs/toolkit/dist/query";
 
 export const store = configureStore({
   reducer: {
-    [apiRTK.reducerPath]: apiRTK.reducer,
+    [apiRTK.reducerPath]: apiRTK.reducer
   },
 
   middleware: (getDefaultMiddleware) =>
@@ -12,4 +11,4 @@ export const store = configureStore({
 });
 
 export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;  
+export type AppDispatch = typeof store.dispatch;

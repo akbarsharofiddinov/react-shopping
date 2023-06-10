@@ -29,8 +29,3 @@ interface IProduct {
   etc: string[];
   desc: string[];
 }
-
-interface IFavArr {
-  id: number,
-  isFav: boolean
-}

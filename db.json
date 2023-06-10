@@ -17,12 +17,30 @@
           "id": 1,
           "color": "Сиреневый",
           "sizes": [
-            { "size": 35, "count": 0 },
-            { "size": 36, "count": 2 },
-            { "size": 37, "count": 5 },
-            { "size": 38, "count": 1 },
-            { "size": 39, "count": 0 },
-            { "size": 40, "count": 0 }
+            {
+              "size": 35,
+              "count": 0
+            },
+            {
+              "size": 36,
+              "count": 2
+            },
+            {
+              "size": 37,
+              "count": 5
+            },
+            {
+              "size": 38,
+              "count": 1
+            },
+            {
+              "size": 39,
+              "count": 0
+            },
+            {
+              "size": 40,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/chm62sr6edfostife3f0/t_product_540_high.jpg#1685423206060",
@@ -36,12 +54,30 @@
           "id": 2,
           "color": "Черный",
           "sizes": [
-            { "size": 35, "count": 1 },
-            { "size": 36, "count": 2 },
-            { "size": 37, "count": 2 },
-            { "size": 38, "count": 2 },
-            { "size": 39, "count": 0 },
-            { "size": 40, "count": 0 }
+            {
+              "size": 35,
+              "count": 1
+            },
+            {
+              "size": 36,
+              "count": 2
+            },
+            {
+              "size": 37,
+              "count": 2
+            },
+            {
+              "size": 38,
+              "count": 2
+            },
+            {
+              "size": 39,
+              "count": 0
+            },
+            {
+              "size": 40,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/ch3nho357mg830i23dtg/original.jpg",
@@ -87,12 +123,30 @@
           "id": 1,
           "color": "Аметистовый",
           "sizes": [
-            { "size": 36, "count": 8 },
-            { "size": 37, "count": 9 },
-            { "size": 38, "count": 1 },
-            { "size": 39, "count": 2 },
-            { "size": 40, "count": 1 },
-            { "size": 41, "count": 0 }
+            {
+              "size": 36,
+              "count": 8
+            },
+            {
+              "size": 37,
+              "count": 9
+            },
+            {
+              "size": 38,
+              "count": 1
+            },
+            {
+              "size": 39,
+              "count": 2
+            },
+            {
+              "size": 40,
+              "count": 1
+            },
+            {
+              "size": 41,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cg67dmnhgiov1qie6pog/original.jpg",
@@ -106,12 +160,30 @@
           "id": 2,
           "color": "Розовый",
           "sizes": [
-            { "size": 36, "count": 6 },
-            { "size": 37, "count": 6 },
-            { "size": 38, "count": 2 },
-            { "size": 39, "count": 2 },
-            { "size": 40, "count": 5 },
-            { "size": 41, "count": 0 }
+            {
+              "size": 36,
+              "count": 6
+            },
+            {
+              "size": 37,
+              "count": 6
+            },
+            {
+              "size": 38,
+              "count": 2
+            },
+            {
+              "size": 39,
+              "count": 2
+            },
+            {
+              "size": 40,
+              "count": 5
+            },
+            {
+              "size": 41,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cg67bu7g49devoaaad6g/t_product_540_high.jpg#1685425684163",
@@ -125,12 +197,30 @@
           "id": 3,
           "color": "Салатовый",
           "sizes": [
-            { "size": 36, "count": 7 },
-            { "size": 37, "count": 1 },
-            { "size": 38, "count": 0 },
-            { "size": 39, "count": 8 },
-            { "size": 40, "count": 0 },
-            { "size": 41, "count": 0 }
+            {
+              "size": 36,
+              "count": 7
+            },
+            {
+              "size": 37,
+              "count": 1
+            },
+            {
+              "size": 38,
+              "count": 0
+            },
+            {
+              "size": 39,
+              "count": 8
+            },
+            {
+              "size": 40,
+              "count": 0
+            },
+            {
+              "size": 41,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cg67csnhj8j9g699ktq0/original.jpg",
@@ -142,7 +232,9 @@
         }
       ],
       "bought": 25,
-      "etc": ["Подошва EVA, верх - искуственная кожа в композиции с тканью"],
+      "etc": [
+        "Подошва EVA, верх - искуственная кожа в композиции с тканью"
+      ],
       "desc": [
         "Кроссовки сеточные совместного производства, доступная цена - хорошее качество."
       ]
@@ -164,11 +256,26 @@
           "id": 1,
           "color": "Молочный",
           "sizes": [
-            { "size": 40, "count": 5 },
-            { "size": 41, "count": 0 },
-            { "size": 42, "count": 21 },
-            { "size": 43, "count": 31 },
-            { "size": 44, "count": 0 }
+            {
+              "size": 40,
+              "count": 5
+            },
+            {
+              "size": 41,
+              "count": 0
+            },
+            {
+              "size": 42,
+              "count": 21
+            },
+            {
+              "size": 43,
+              "count": 31
+            },
+            {
+              "size": 44,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/ch4ihu357mg830i28m4g/t_product_540_high.jpg#1685426240245",
@@ -182,11 +289,26 @@
           "id": 2,
           "color": "Карамельный",
           "sizes": [
-            { "size": 40, "count": 27 },
-            { "size": 41, "count": 27 },
-            { "size": 42, "count": 62 },
-            { "size": 43, "count": 58 },
-            { "size": 44, "count": 24 }
+            {
+              "size": 40,
+              "count": 27
+            },
+            {
+              "size": 41,
+              "count": 27
+            },
+            {
+              "size": 42,
+              "count": 62
+            },
+            {
+              "size": 43,
+              "count": 58
+            },
+            {
+              "size": 44,
+              "count": 24
+            }
           ],
           "images": [
             "https://images.uzum.uz/ch4f42b57mg830i27dig/original.jpg",
@@ -200,11 +322,26 @@
           "id": 3,
           "color": "Синий меланж",
           "sizes": [
-            { "size": 40, "count": 2 },
-            { "size": 41, "count": 0 },
-            { "size": 42, "count": 9 },
-            { "size": 43, "count": 15 },
-            { "size": 44, "count": 0 }
+            {
+              "size": 40,
+              "count": 2
+            },
+            {
+              "size": 41,
+              "count": 0
+            },
+            {
+              "size": 42,
+              "count": 9
+            },
+            {
+              "size": 43,
+              "count": 15
+            },
+            {
+              "size": 44,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/ch4ii5vg49devoaf8p40/original.jpg",
@@ -218,11 +355,26 @@
           "id": 4,
           "color": "Черный",
           "sizes": [
-            { "size": 40, "count": 1 },
-            { "size": 41, "count": 1 },
-            { "size": 42, "count": 22 },
-            { "size": 43, "count": 33 },
-            { "size": 44, "count": 4 }
+            {
+              "size": 40,
+              "count": 1
+            },
+            {
+              "size": 41,
+              "count": 1
+            },
+            {
+              "size": 42,
+              "count": 22
+            },
+            {
+              "size": 43,
+              "count": 33
+            },
+            {
+              "size": 44,
+              "count": 4
+            }
           ],
           "images": [
             "https://images.uzum.uz/ch7o7fnhj8j2b6b6o56g/original.jpg",
@@ -234,7 +386,12 @@
         }
       ],
       "bought": 142,
-      "etc": ["Tекстильный", "Воздухопроницаемый", "Лето", "Удобный"],
+      "etc": [
+        "Tекстильный",
+        "Воздухопроницаемый",
+        "Лето",
+        "Удобный"
+      ],
       "desc": [
         "Мы представляем вам нашу стильную женскую и мужскую летнюю обувь для классического спортивного стиля модели 2023.Кроссовки удобны для физкультуру, также для работы， идеально подходит для домашней обуви и школьной обуви для ходьбы и спорта. Подходит для теплых и прохладных сезонов. Шнурки обеспечивают лучшую посадку обуви на ногу. Изготовлен из высококачественной искусственной кожи ПВХ отлично проводит равномерное тепло на оптимальной платформе из поливинилхлорида. Эти кроссовки не доставляют дискомфорта при ежедневном ношении, кожа ног не потеет и они не утомляют вас благодаря легкому весу обуви.Очень удобны для поездок на дачу,в походы и для активных развлечений."
       ]
@@ -256,12 +413,30 @@
           "id": 1,
           "color": "",
           "sizes": [
-            { "size": 36, "count": 21 },
-            { "size": 37, "count": 20 },
-            { "size": 38, "count": 25 },
-            { "size": 39, "count": 15 },
-            { "size": 40, "count": 22 },
-            { "size": 41, "count": 20 }
+            {
+              "size": 36,
+              "count": 21
+            },
+            {
+              "size": 37,
+              "count": 20
+            },
+            {
+              "size": 38,
+              "count": 25
+            },
+            {
+              "size": 39,
+              "count": 15
+            },
+            {
+              "size": 40,
+              "count": 22
+            },
+            {
+              "size": 41,
+              "count": 20
+            }
           ],
           "images": [
             "https://images.uzum.uz/cgu0dpvg49devoae5c2g/original.jpg",
@@ -297,11 +472,26 @@
           "id": 1,
           "color": "",
           "sizes": [
-            { "size": 38, "count": 4 },
-            { "size": 39, "count": 7 },
-            { "size": 40, "count": 7 },
-            { "size": 41, "count": 0 },
-            { "size": 42, "count": 1 }
+            {
+              "size": 38,
+              "count": 4
+            },
+            {
+              "size": 39,
+              "count": 7
+            },
+            {
+              "size": 40,
+              "count": 7
+            },
+            {
+              "size": 41,
+              "count": 0
+            },
+            {
+              "size": 42,
+              "count": 1
+            }
           ],
           "images": [
             "https://images.uzum.uz/cgv51n7hj8j9g69dming/original.jpg",
@@ -343,12 +533,30 @@
           "id": 1,
           "color": "Темно-синий",
           "sizes": [
-            { "size": 39, "count": 7 },
-            { "size": 40, "count": 6 },
-            { "size": 41, "count": 8 },
-            { "size": 42, "count": 7 },
-            { "size": 43, "count": 5 },
-            { "size": 44, "count": 1 }
+            {
+              "size": 39,
+              "count": 7
+            },
+            {
+              "size": 40,
+              "count": 6
+            },
+            {
+              "size": 41,
+              "count": 8
+            },
+            {
+              "size": 42,
+              "count": 7
+            },
+            {
+              "size": 43,
+              "count": 5
+            },
+            {
+              "size": 44,
+              "count": 1
+            }
           ],
           "images": [
             "https://images.uzum.uz/ch1a2mr57mg9720fr5e0/original.jpg",
@@ -362,12 +570,30 @@
           "id": 2,
           "color": "Черный",
           "sizes": [
-            { "size": 39, "count": 9 },
-            { "size": 40, "count": 8 },
-            { "size": 41, "count": 8 },
-            { "size": 42, "count": 4 },
-            { "size": 43, "count": 8 },
-            { "size": 44, "count": 6 }
+            {
+              "size": 39,
+              "count": 9
+            },
+            {
+              "size": 40,
+              "count": 8
+            },
+            {
+              "size": 41,
+              "count": 8
+            },
+            {
+              "size": 42,
+              "count": 4
+            },
+            {
+              "size": 43,
+              "count": 8
+            },
+            {
+              "size": 44,
+              "count": 6
+            }
           ],
           "images": [
             "https://images.uzum.uz/ch1a2png49devoaeogt0/original.jpg",
@@ -401,12 +627,30 @@
           "id": 1,
           "color": "Индиго",
           "sizes": [
-            { "size": 35, "count": 0 },
-            { "size": 36, "count": 0 },
-            { "size": 37, "count": 0 },
-            { "size": 38, "count": 1 },
-            { "size": 39, "count": 0 },
-            { "size": 40, "count": 0 }
+            {
+              "size": 35,
+              "count": 0
+            },
+            {
+              "size": 36,
+              "count": 0
+            },
+            {
+              "size": 37,
+              "count": 0
+            },
+            {
+              "size": 38,
+              "count": 1
+            },
+            {
+              "size": 39,
+              "count": 0
+            },
+            {
+              "size": 40,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/chetmnd6sfhndlbm1vi0/original.jpg",
@@ -420,12 +664,30 @@
           "id": 2,
           "color": "Лесной зеленый",
           "sizes": [
-            { "size": 35, "count": 0 },
-            { "size": 36, "count": 0 },
-            { "size": 37, "count": 0 },
-            { "size": 38, "count": 0 },
-            { "size": 39, "count": 0 },
-            { "size": 40, "count": 0 }
+            {
+              "size": 35,
+              "count": 0
+            },
+            {
+              "size": 36,
+              "count": 0
+            },
+            {
+              "size": 37,
+              "count": 0
+            },
+            {
+              "size": 38,
+              "count": 0
+            },
+            {
+              "size": 39,
+              "count": 0
+            },
+            {
+              "size": 40,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cg8u0mfg49devoaanp30/t_product_240_high.jpg",
@@ -439,12 +701,30 @@
           "id": 3,
           "color": "Серый меланж",
           "sizes": [
-            { "size": 35, "count": 0 },
-            { "size": 36, "count": 0 },
-            { "size": 37, "count": 0 },
-            { "size": 38, "count": 0 },
-            { "size": 39, "count": 0 },
-            { "size": 40, "count": 0 }
+            {
+              "size": 35,
+              "count": 0
+            },
+            {
+              "size": 36,
+              "count": 0
+            },
+            {
+              "size": 37,
+              "count": 0
+            },
+            {
+              "size": 38,
+              "count": 0
+            },
+            {
+              "size": 39,
+              "count": 0
+            },
+            {
+              "size": 40,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cgamodnhj8j9g69a9ihg/t_product_240_high.jpg",
@@ -458,12 +738,30 @@
           "id": 4,
           "color": "Черный",
           "sizes": [
-            { "size": 35, "count": 0 },
-            { "size": 36, "count": 0 },
-            { "size": 37, "count": 0 },
-            { "size": 38, "count": 0 },
-            { "size": 39, "count": 0 },
-            { "size": 40, "count": 0 }
+            {
+              "size": 35,
+              "count": 0
+            },
+            {
+              "size": 36,
+              "count": 0
+            },
+            {
+              "size": 37,
+              "count": 0
+            },
+            {
+              "size": 38,
+              "count": 0
+            },
+            {
+              "size": 39,
+              "count": 0
+            },
+            {
+              "size": 40,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cgamolvg49devoaave40/t_product_240_high.jpg",
@@ -475,7 +773,9 @@
         }
       ],
       "bought": 3,
-      "etc": ["Ishlab chiqarilgan mamlakat - Xitoy"],
+      "etc": [
+        "Ishlab chiqarilgan mamlakat - Xitoy"
+      ],
       "desc": [
         "Кроссовки изики идеально комфортные для ходьбы, бега, пеших прогулок, путешествий, дачи, работы, тренировки в ",
         "зале и на улице, спорта, физкультуры, йоги и любого активного и повседневного отдыха на открытом воздухе. ",
@@ -500,11 +800,26 @@
           "id": 1,
           "color": "",
           "sizes": [
-            { "size": 40, "count": 0 },
-            { "size": 41, "count": 0 },
-            { "size": 42, "count": 1 },
-            { "size": 43, "count": 0 },
-            { "size": 44, "count": 0 }
+            {
+              "size": 40,
+              "count": 0
+            },
+            {
+              "size": 41,
+              "count": 0
+            },
+            {
+              "size": 42,
+              "count": 1
+            },
+            {
+              "size": 43,
+              "count": 0
+            },
+            {
+              "size": 44,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cfhm1sp25ku4g9bb86vg/t_product_240_high.jpg",
@@ -548,11 +863,26 @@
           "id": 1,
           "color": "",
           "sizes": [
-            { "size": 31, "count": 0 },
-            { "size": 32, "count": 1 },
-            { "size": 33, "count": 0 },
-            { "size": 34, "count": 0 },
-            { "size": 35, "count": 0 }
+            {
+              "size": 31,
+              "count": 0
+            },
+            {
+              "size": 32,
+              "count": 1
+            },
+            {
+              "size": 33,
+              "count": 0
+            },
+            {
+              "size": 34,
+              "count": 0
+            },
+            {
+              "size": 35,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cfn06i7hgiopn8lcf7gg/t_product_240_high.jpg",
@@ -590,19 +920,58 @@
           "id": 1,
           "color": "Бирюзовый",
           "sizes": [
-            { "size": 34, "count": 0 },
-            { "size": 35, "count": 0 },
-            { "size": 36, "count": 0 },
-            { "size": 37, "count": 1 },
-            { "size": 38, "count": 0 },
-            { "size": 39, "count": 0 },
-            { "size": 40, "count": 0 },
-            { "size": 41, "count": 0 },
-            { "size": 42, "count": 0 },
-            { "size": 43, "count": 0 },
-            { "size": 44, "count": 0 },
-            { "size": 45, "count": 0 },
-            { "size": 46, "count": 0 }
+            {
+              "size": 34,
+              "count": 0
+            },
+            {
+              "size": 35,
+              "count": 0
+            },
+            {
+              "size": 36,
+              "count": 0
+            },
+            {
+              "size": 37,
+              "count": 1
+            },
+            {
+              "size": 38,
+              "count": 0
+            },
+            {
+              "size": 39,
+              "count": 0
+            },
+            {
+              "size": 40,
+              "count": 0
+            },
+            {
+              "size": 41,
+              "count": 0
+            },
+            {
+              "size": 42,
+              "count": 0
+            },
+            {
+              "size": 43,
+              "count": 0
+            },
+            {
+              "size": 44,
+              "count": 0
+            },
+            {
+              "size": 45,
+              "count": 0
+            },
+            {
+              "size": 46,
+              "count": 0
+            }
           ],
           "images": [
             "https://images.uzum.uz/cfll4e5ennt3ujbs9ih0/t_product_240_high.jpg",
@@ -616,19 +985,58 @@
           "id": 2,
           "color": "Красный",
           "sizes": [
-            { "size": 34, "count": 0 },
-            { "size": 35, "count": 0 },
-            { "size": 36, "count": 0 },
-            { "size": 37, "count": 0 },
-            { "size": 38, "count": 0 },
-            { "size": 39, "count": 0 },
-            { "size": 40, "count": 0 },
-            { "size": 41, "count": 0 },
-            { "size": 42, "count": 0 },
-            { "size": 43, "count": 0 },
-            { "size": 44, "count": 0 },
-            { "size": 45, "count": 0 },
-            { "size": 46, "count": 1 }
+            {
+              "size": 34,
+              "count": 0
+            },
+            {
+              "size": 35,
+              "count": 0
+            },
+            {
+              "size": 36,
+              "count": 0
+            },
+            {
+              "size": 37,
+              "count": 0
+            },
+            {
+              "size": 38,
+              "count": 0
+            },
+            {
+              "size": 39,
+              "count": 0
+            },
+            {
+              "size": 40,
+              "count": 0
+            },
+            {
+              "size": 41,
+              "count": 0
+            },
+            {
+              "size": 42,
+              "count": 0
+            },
+            {
+              "size": 43,
+              "count": 0
+            },
+            {
+              "size": 44,
+              "count": 0
+            },
+            {
+              "size": 45,
+              "count": 0
+            },
+            {
+              "size": 46,
+              "count": 1
+            }
           ],
           "images": [
             "https://images.uzum.uz/cfl2aktennt3ujbs7j6g/t_product_240_high.jpg",
@@ -663,7 +1071,12 @@
         {
           "id": 1,
           "color": "",
-          "sizes": [{ "size": 37, "count": 0 }],
+          "sizes": [
+            {
+              "size": 37,
+              "count": 0
+            }
+          ],
           "images": [
             "https://images.uzum.uz/chjgepd6sfhndlbmffs0/t_product_240_high.jpg",
             "https://images.uzum.uz/chjgepd40v9pplt223j0/t_product_240_high.jpg",
@@ -675,7 +1088,9 @@
       ],
       "bought": 2,
       "etc": null,
-      "desc": ["Стильные кроссовки юнисекс"]
+      "desc": [
+        "Стильные кроссовки юнисекс"
+      ]
     },
     {
       "id": 12,
@@ -883,7 +1298,10 @@
         }
       ],
       "bought": 17,
-      "etc": ["Yozgi krossovkalar", "Yaxshi nafas olish qobiliyati."],
+      "etc": [
+        "Yozgi krossovkalar",
+        "Yaxshi nafas olish qobiliyati."
+      ],
       "desc": [
         "Sizga 2023 yilgi klassik sport uslubi uchun zamonaviy ayollar va erkaklar yozgi poyafzallarini taqdim etamiz.Krossovkalar ",
         "uchun qulay jismoniy tarbiya， shuningdek， ish uchun， yurish va sport uchun uy poyabzali va maktab poyabzali uchun juda",
@@ -1080,7 +1498,9 @@
         }
       ],
       "bought": 15,
-      "etc": [""],
+      "etc": [
+        ""
+      ],
       "desc": [
         "Skechers uslubidagi krossovkalar har kuni va sport uchun ko'p qirrali bo'lib, Ultra yengil va qulay poyabzal yaratish uchun ",
         "zamonaviy texnologiyalarning simbiozi bo'lib, ajoyib to'qilgan ustki texnologiya bilan birlashtirilgan. Krossovkalarning yuqori ",
@@ -1137,7 +1557,9 @@
         }
       ],
       "bought": 3,
-      "etc": [""],
+      "etc": [
+        ""
+      ],
       "desc": [
         " Yoz mavsumi uchun qulay, yengil taglikga ega, oyoqni terlatmaydi va qulay joylashish uchun paypoqqa o'xshash Bipstep ",
         "konstruktsiyasiga ega. Kun bo'yi qulaylik uchun yostiqli havo bilan sovutilgan xotira ko'piklik oyoq tagligi. Moslashuvchan",

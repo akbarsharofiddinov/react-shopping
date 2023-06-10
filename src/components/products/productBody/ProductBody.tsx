@@ -9,18 +9,6 @@ const ProductBody: React.FC = () => {
 
   const { data: products, isLoading, isError } = useGetProductsQuery();
 
-  if (!localStorage.getItem("isFavArr")) {
-    if (products) {
-      const favArr: { id: number; isFav: boolean }[] = [];
-
-      products?.forEach((item) =>
-        favArr.push({ id: item.id, isFav: item.isFavorite })
-      );
-
-      localStorage.setItem("isFavArr", JSON.stringify(favArr));
-    }
-  }
-
   if (isError || (products && products?.length <= 0)) {
     navigate("home-error");
   }

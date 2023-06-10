@@ -7,9 +7,9 @@ import clsx from "clsx";
 
 const Header: React.FC = () => {
   return (
-    <header className="header p-5 shadow-md bg-white">
+    <header className="sticky top-0 left-0 right-0 z-50 mb-[40px] p-5 shadow-md bg-white">
       <div className="container">
-        <div className="header_inner flex items-center justify-between">
+        <div className="flex items-center justify-between">
           <div>
             <Link to="/" className="flex gap-5 items-center">
               <span>

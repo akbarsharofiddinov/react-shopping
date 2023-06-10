@@ -1,4 +1,5 @@
 import React from "react";
+import { useSetFavouriteProductMutation } from "@store/apiRTK/apiRTK";
 import { BsCart2, BsHeart, BsHeartFill } from "react-icons/bs";
 
 interface IProps {
@@ -6,24 +7,25 @@ interface IProps {
 }
 
 const ProductItem: React.FC<IProps> = ({ data }: IProps) => {
-  const [favArr, setFavArr] = React.useState<IFavArr[] | undefined>(undefined);
+  const [handleFavourite] = useSetFavouriteProductMutation();
 
-  React.useEffect(() => {
-    const favArr = JSON.parse(localStorage.getItem("isFavArr") + "");
-    setFavArr(favArr);
-  }, []);
-
-  console.log(favArr);
+  const clickFavourite = (data: IProduct) => {
+    if (!data.isFavorite) {
+      handleFavourite({ ...data, isFavorite: true });
+    } else {
+      handleFavourite({ ...data, isFavorite: false });
+    }
+  };
 
   return (
     <div className="flex flex-col bg-[#EFEFEF] cursor-pointer overflow-hidden">
       <div className="top flex justify-center relative">
         <div
-          className="absolute top-4 left-4 bg-[#fffafa73] w-[40px] h-[40px] flex items-center justify-center rounded-[20px] z-50 cursor-pointer"
-          onClick={() => {}}
+          className="absolute top-4 right-4 bg-[#fffafa73] w-[40px] h-[40px] flex items-center justify-center rounded-[20px] z-40 cursor-pointer"
+          onClick={() => {clickFavourite(data)}}
         >
           {data.isFavorite ? (
-            <BsHeartFill className="text-[20px] text-red-600 z-50" />
+            <BsHeartFill className="text-[20px] text-red-600 z-40" />
           ) : (
             <BsHeart className="text-[20px] z-50" />
           )}
