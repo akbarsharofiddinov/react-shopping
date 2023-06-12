@@ -1,12 +1,9 @@
 import React from "react";
-import { useGetProductsQuery } from "@store/apiRTK/apiRTK";
 import { FavouriteData, FavouriteNoData } from "@components/fav-component";
+import { useFilterProducts } from "@base/hooks/useFilterFavourite";
 
 const Favourite: React.FC = () => {
-  const { data } = useGetProductsQuery();
-  const filterFavourite = data?.filter(
-    (product) => product.isFavorite === true
-  );
+  const filterFavourite = useFilterProducts();
 
   return (
     <section className="section-app">

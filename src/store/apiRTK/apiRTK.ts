@@ -13,9 +13,9 @@ export const apiRTK = createApi({
       }),
     }),
 
-    getProducts: build.query<IProduct[], void>({
-      query: () => ({
-        url: "products",
+    getProducts: build.query<IProduct[], string | void>({
+      query: (value = "") => ({
+        url: `products/?q=${value}`,
       }),
       providesTags: (result) =>
         result

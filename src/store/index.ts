@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { apiRTK } from "./apiRTK/apiRTK";
+import searchQuerySlice from "./searchQuerySlice/searchQuerySlice";
 
 export const store = configureStore({
   reducer: {
-    [apiRTK.reducerPath]: apiRTK.reducer
+    [apiRTK.reducerPath]: apiRTK.reducer,
+    searchQuerySlice,
   },
 
   middleware: (getDefaultMiddleware) =>

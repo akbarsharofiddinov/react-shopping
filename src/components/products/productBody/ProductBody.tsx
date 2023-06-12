@@ -2,19 +2,19 @@ import React from "react";
 import { useGetProductsQuery } from "@store/apiRTK/apiRTK";
 import ProductItem from "./productItem/ProductItem";
 import LoadingProducts from "./loadingProducts/LoadingProducts";
-import { useNavigate } from "react-router-dom";
+import { useAppSelector } from "@store/hooks/redux-Hook";
 
 const ProductBody: React.FC = () => {
-  const navigate = useNavigate();
+  const { searchQuery } = useAppSelector((state) => state.searchQuerySlice);
+  const {
+    data: products,
+    isLoading,
+    isError,
+  } = useGetProductsQuery(searchQuery);
 
-  const { data: products, isLoading, isError } = useGetProductsQuery();
-
-  if (isError || (products && products?.length <= 0)) {
-    navigate("home-error");
-  }
   return (
     <section className="section-app">
-      {isLoading ? (
+      {isError ? <></> : isLoading ? (
         <LoadingProducts />
       ) : (
         <div className="grid grid-cols-4 gap-[20px]">

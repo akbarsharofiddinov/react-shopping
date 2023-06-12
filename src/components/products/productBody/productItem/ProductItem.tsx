@@ -18,11 +18,11 @@ const ProductItem: React.FC<IProps> = ({ data }: IProps) => {
   };
 
   return (
-    <div className="flex flex-col bg-[#EFEFEF] cursor-pointer overflow-hidden">
+    <div className="flex flex-col bg-[#EFEFEF] cursor-pointer overflow-hidden rounded-[10px] shadow-[0px 2px 4px rgba(0, 0, 0, .2)]">
       <div className="top flex justify-center relative">
         <div
           className="absolute top-4 right-4 bg-[#fffafa73] w-[40px] h-[40px] flex items-center justify-center rounded-[20px] z-40 cursor-pointer"
-          onClick={() => {clickFavourite(data)}}
+          onClick={() => { clickFavourite(data) }}
         >
           {data.isFavorite ? (
             <BsHeartFill className="text-[20px] text-red-600 z-40" />
@@ -33,7 +33,7 @@ const ProductItem: React.FC<IProps> = ({ data }: IProps) => {
         <img
           src={data.mainImg}
           alt="product-img"
-          className="w-[300px] h-[300px] object-contain transition-transform ease-linear hover:scale-[1.05]"
+          className="w-[300px] h-[300px] object-contain"
         />
       </div>
       <div className="p-5 flex flex-col gap-2 items-start">
@@ -46,7 +46,7 @@ const ProductItem: React.FC<IProps> = ({ data }: IProps) => {
           {Math.ceil(data.priceInfo.price / 3).toLocaleString("ru")} сум / месяц
         </span>
         {data.priceInfo.discount &&
-        typeof data.priceInfo.discount === "number" ? (
+          typeof data.priceInfo.discount === "number" ? (
           <div className="flex items-center justify-between pr-3 w-full">
             <div>
               <p className="line-through">
