@@ -18,13 +18,13 @@ const ProductFilter: React.FC = () => {
 
   return (
     <div className="flex items-center justify-between">
-      <h1 className="text-[28px] font-bold">
+      <h1 className="hidden sm:flex text-[28px] font-bold">
         {searchQuery ? searchQuery : "Все кроссовки"}
       </h1>
-      <div className="inline-block relative overflow-hidden">
+      <div className="w-full sm:w-auto inline-block relative overflow-hidden">
         <BsSearch className="absolute top-[50%] -translate-y-[50%] left-[10px] text-[#adadad]" />
         <input
-          className="py-[8px] pl-[40px] border-2 w-[300px] rounded-[10px] pr-[10px]"
+          className="py-[8px] pl-[40px] border-2 !w-full sm:w-[300px] rounded-[10px] pr-[10px]"
           type="text"
           placeholder="Поиск..."
           value={searchValue}

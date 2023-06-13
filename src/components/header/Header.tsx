@@ -7,17 +7,10 @@ import clsx from "clsx";
 import { useFilterProducts } from "@base/hooks/useFilterFavourite";
 
 const Header: React.FC = () => {
-  const [countFavourite, setCountFavourite] = React.useState<number>(0);
   const favourites = useFilterProducts();
 
-  React.useEffect(() => {
-    if (favourites) {
-      setCountFavourite(favourites?.length);
-    }
-  }, [favourites]);
-
   return (
-    <header className="sticky top-0 left-0 right-0 z-50 mb-[40px] p-5 shadow-md bg-white">
+    <header className="sticky top-0 left-0 right-0 z-50 mb-[0px] sm:mb-[5px] md:mb-[10px] lg:mb-[15px] p-5 shadow-md bg-[#ffffffe8]">
       <div className="container">
         <div className="flex items-center justify-between">
           <div>
@@ -66,7 +59,7 @@ const Header: React.FC = () => {
               <div className="relative">
                 <FiHeart className="text-[22px] lg:text-[25px]" />
                 <span className="flex items-center justify-center bg-black absolute text-white text-[14px] w-[20px] h-[20px] rounded-full -top-[12px] -right-[15px]">
-                  {countFavourite}
+                  {favourites?.length}
                 </span>
               </div>
               <span className="hidden md:flex text-[14px] lg:text-[16px]">

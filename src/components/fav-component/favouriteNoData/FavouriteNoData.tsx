@@ -4,7 +4,7 @@ import no_favourite from "@assets/images/no_favourite.svg";
 
 const FavouriteNoData: React.FC = () => {
   return (
-    <div className="flex items-start justify-center min-h-screen">
+    <div className="flex !min-h-screen items-start justify-center">
       <div className="flex items-center justify-center bg-[#f7f7f7] w-full">
         <div className="flex flex-col items-center justify-center gap-[25px] py-10 w-[400px]">
           <img
