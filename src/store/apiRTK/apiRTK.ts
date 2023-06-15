@@ -23,6 +23,12 @@ export const apiRTK = createApi({
           : [{ type: "Products", id: "Products_ID" }],
     }),
 
+    getProduct: build.query<IProduct, string>({
+      query: (id) => ({
+        url: `products/${id}`,
+      })
+    }),
+
     setFavouriteProduct: build.mutation<IProduct, IProduct>({
       query: (product) => ({
         url: `products/${product.id}`,
@@ -36,6 +42,7 @@ export const apiRTK = createApi({
 
 export const {
   useGetProductsQuery,
+  useGetProductQuery,
   useGetBannerQuery,
   useSetFavouriteProductMutation,
 } = apiRTK;

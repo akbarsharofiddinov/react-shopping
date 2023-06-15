@@ -1,6 +1,9 @@
 import React from "react";
 import { useSetFavouriteProductMutation } from "@store/apiRTK/apiRTK";
 import { BsCart2, BsHeart, BsHeartFill } from "react-icons/bs";
+import "./style.scss"
+import { Link } from "react-router-dom";
+import scrollTop from "@base/utils/scrollTop";
 
 interface IProps {
   data: IProduct;
@@ -18,7 +21,7 @@ const ProductItem: React.FC<IProps> = ({ data }: IProps) => {
   };
 
   return (
-    <div className="flex flex-col bg-[#EFEFEF] cursor-pointer overflow-hidden rounded-[10px] shadow-[0px 2px 4px rgba(0, 0, 0, .2)]">
+    <div className="flex flex-col relative bg-[#EFEFEF] cursor-pointer overflow-hidden rounded-[10px] shadow-[0px 2px 4px rgba(0, 0, 0, .2)]" id="product_item">
       <div className="top flex justify-center relative">
         <div
           className="absolute top-4 right-4 bg-[#fffafa73] w-[40px] h-[40px] flex items-center justify-center rounded-[20px] z-40 cursor-pointer"
@@ -76,6 +79,7 @@ const ProductItem: React.FC<IProps> = ({ data }: IProps) => {
           </div>
         )}
       </div>
+      <Link to={`detail/${data.id}`} onClick={scrollTop} className="absolute top-0 left-0 right-0 bottom-0"></Link>
     </div>
   );
 };
