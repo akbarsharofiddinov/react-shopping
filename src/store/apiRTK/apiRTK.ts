@@ -5,31 +5,31 @@ export const apiRTK = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "http://localhost:5500/",
   }),
-  tagTypes: ["Products"],
-  endpoints: (build) => ({
-    getBanner: build.query<string[], void>({
+  tagTypes: ["Products", "Cart-Products"],
+  endpoints: (builder) => ({
+    getBanners: builder.query<string[], void>({
       query: () => ({
         url: "banner",
       }),
     }),
-
-    getProducts: build.query<IProduct[], string | void>({
+    getProducts: builder.query<IProduct[], string | void>({
       query: (value = "") => ({
-        url: `products/?q=${value}`,
+        url: `products?q=${value}`,
       }),
       providesTags: (result) =>
         result
-          ? [{ type: "Products", id: "Products_ID" }]
+          ? [
+              ...result.map(({ id }) => ({ type: "Products", id } as const)),
+              { type: "Products", id: "Products_ID" },
+            ]
           : [{ type: "Products", id: "Products_ID" }],
     }),
-
-    getProduct: build.query<IProduct, string>({
+    getProduct: builder.query<IProduct, string>({
       query: (id) => ({
         url: `products/${id}`,
-      })
+      }),
     }),
-
-    setFavouriteProduct: build.mutation<IProduct, IProduct>({
+    editFavoriteProduct: builder.mutation<IProduct, IProduct>({
       query: (product) => ({
         url: `products/${product.id}`,
         method: "PUT",
@@ -37,12 +37,21 @@ export const apiRTK = createApi({
       }),
       invalidatesTags: [{ type: "Products", id: "Products_ID" }],
     }),
+    addProductCart: builder.mutation<any, ICart>({
+      query: (product) => ({
+        url: `cart`,
+        method: "POST",
+        body: product,
+      }),
+      invalidatesTags: [{ type: "Cart-Products", id: "Cart-Products_ID" }],
+    }),
   }),
 });
 
 export const {
+  useGetBannersQuery,
   useGetProductsQuery,
   useGetProductQuery,
-  useGetBannerQuery,
-  useSetFavouriteProductMutation,
+  useEditFavoriteProductMutation,
+  useAddProductCartMutation,
 } = apiRTK;

@@ -1,4 +1,4 @@
-import { Home, Cart, Favourite, Profile, DetailProduct } from "@pages/index";
+import { Home, Cart, Favorite, Profile, DetailProduct } from "@pages/index";
 
 export const routes = [
   {
@@ -10,8 +10,8 @@ export const routes = [
     path: "cart",
   },
   {
-    RouteElement: Favourite,
-    path: "favourite",
+    RouteElement: Favorite,
+    path: "favorite",
   },
   {
     RouteElement: Profile,
@@ -20,5 +20,5 @@ export const routes = [
   {
     RouteElement: DetailProduct,
     path: "detail/:id",
-  }
+  },
 ];

@@ -1,13 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const Profile: React.FC = () => {
+const Profile = () => {
   return (
-    <section className="section-app">
-      <div className="container">
-        <h1>Profile</h1>
-      </div>
-    </section>
-  );
-};
+    <div>Profile</div>
+  )
+}
 
-export default Profile;
+export default Profile

@@ -1,83 +1,92 @@
 import React from "react";
-import logo from "@assets/images/logo.svg";
 import { Link, NavLink } from "react-router-dom";
-import { FiHeart, FiShoppingCart } from "react-icons/fi";
-import { BsPersonCircle } from "react-icons/bs";
+import Logo from "@assets/logo/logo.png";
+import { BsCart3, BsHeart, BsPersonCircle } from "react-icons/bs";
+import { useFavoriteFilter } from "@base/hooks/useFavoriteFilter";
 import clsx from "clsx";
-import { useFilterProducts } from "@base/hooks/useFilterFavourite";
 
 const Header: React.FC = () => {
-  const favourites = useFilterProducts();
+  const filterFavorites = useFavoriteFilter();
+
+  const clickNavigate = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
-    <header className="sticky top-0 left-0 right-0 z-50 mb-[0px] sm:mb-[5px] md:mb-[10px] lg:mb-[15px] p-5 shadow-md bg-[#ffffffe8]">
+    <header className="py-5 shadow-md bg-white sticky top-0 left-0 right-0 z-[9999999999] ">
       <div className="container">
-        <div className="flex items-center justify-between">
-          <div>
-            <Link to="/" className="flex gap-5 items-center">
-              <span>
-                <img
-                  src={logo}
-                  className="drop-shadow-md w-[45px] h-[45px] sm:w-[50px] sm:h-[50px] lg:w-[60px] lg:h-[60px]"
-                />
+        <div className="flex items-center justify-between gap-2">
+          <Link to="/" className="flex gap-3 md:gap-4 lg:gap-5 items-center">
+            <span className="flex items-center justify-center">
+              <img
+                src={Logo}
+                alt="Logo-Shoop"
+                className="flex w-[43px] h-[43px] md:w-[60px] md:h-[60px] drop-shadow-xl"
+              />
+            </span>
+            <span className="flex flex-col">
+              <span className="flex text-[15px] md:text-[19px] lg:text-[24px] font-bold text-black uppercase">
+                react sneakers
               </span>
-              <span className="flex flex-col">
-                <span className="uppercase text-black text-[16px] sm:text-[20px] lg:text-[24px] font-bold flex">
-                  react sneakers
-                </span>
-                <span className="hidden sm:flex text-[14px] lg:text-[18px] text-[#9d9d9d]">
-                  Магазин лучших кроссовок
-                </span>
+              <span className="hidden md:flex text-[15px] lg:text-[18px] font-normal text-[#9d9d9d]">
+                Магазин лучших кроссовок
               </span>
-            </Link>
-          </div>
+            </span>
+          </Link>
 
-          <div className="flex items-center gap-8">
+          <div className="flex items-center gap-6">
             <NavLink
               to="/cart"
               className={({ isActive }) =>
                 clsx(
-                  "flex justify-between gap-3 items-center hover:text-[#7dcfff]",
-                  isActive ? "text-[#49b7f7]" : "text-[#5d5d5d]"
+                  " flex flex-col text-[17px] items-center gap-[5px] capitalize font-[400]",
+                  isActive ? "text-[crimson]" : "text-[#636363]"
                 )
               }
+              onClick={clickNavigate}
             >
-              <FiShoppingCart className="text-[22px] lg:text-[25px]" />
-              <span className="hidden md:flex text-[14px] lg:text-[16px]">
-                Корзина
+              <span>
+                <BsCart3 className=" text-[18px] lg:text-[20px]" />
+              </span>
+              <span className="text-[15px] hidden md:flex lg:text-[17px]">
+                корзина
               </span>
             </NavLink>
             <NavLink
-              to="/favourite"
+              to="/favorite"
               className={({ isActive }) =>
                 clsx(
-                  "flex justify-between gap-3 items-center hover:text-[#7dcfff]",
-                  isActive ? "text-[#49b7f7]" : "text-[#5d5d5d]"
+                  " flex flex-col text-[17px] items-center gap-[5px] capitalize font-[400]",
+                  isActive ? "text-[crimson]" : "text-[#636363]"
                 )
               }
+              onClick={clickNavigate}
             >
-              <div className="relative">
-                <FiHeart className="text-[22px] lg:text-[25px]" />
-                <span className="flex items-center justify-center bg-black absolute text-white text-[14px] w-[20px] h-[20px] rounded-full -top-[12px] -right-[15px]">
-                  {favourites?.length}
+              <span className="relative">
+                <BsHeart className=" text-[18px] lg:text-[20px]" />
+                <span className="absolute -top-[10px] -right-[14px] bg-slate-900 w-[18px] h-[18px] rounded-full text-white text-[11px] flex items-center justify-center text-center ">
+                  {filterFavorites?.length}
                 </span>
-              </div>
-              <span className="hidden md:flex text-[14px] lg:text-[16px]">
-                Избранное
+              </span>
+              <span className="text-[15px] hidden md:flex lg:text-[17px]">
+                избранное
               </span>
             </NavLink>
             <NavLink
               to="/profile"
               className={({ isActive }) =>
                 clsx(
-                  "flex justify-between gap-3 items-center hover:text-[#7dcfff]",
-                  isActive ? "text-[#49b7f7]" : "text-[#5d5d5d]"
+                  " flex flex-col text-[17px] items-center gap-[5px] capitalize font-[400]",
+                  isActive ? "text-[crimson]" : "text-[#636363]"
                 )
               }
+              onClick={clickNavigate}
             >
-              <BsPersonCircle className="text-[22px] lg:text-[25px]" />
-              <span className="hidden md:flex text-[14px] lg:text-[16px]">
-                Войти
+              <span>
+                <BsPersonCircle className=" text-[18px] lg:text-[20px]" />
+              </span>
+              <span className="text-[15px] hidden md:flex lg:text-[17px]">
+                войти
               </span>
             </NavLink>
           </div>
