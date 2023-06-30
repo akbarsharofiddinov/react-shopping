@@ -6,7 +6,9 @@ const Layout: React.FC = () => {
   return (
     <div>
       <Header />
-      <Outlet />
+      <div className="flex flex-col justify-center w-full min-h-[80vh]">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@ const Favorite: React.FC = () => {
   const filterFavoirtes = useFavoriteFilter();
 
   return (
-    <section className="min-h-screen py-[50px]">
+    <section className="h-full py-[50px]">
       <div className="container">
         <div>
           {filterFavoirtes?.length ? (

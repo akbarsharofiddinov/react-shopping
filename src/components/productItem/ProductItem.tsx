@@ -3,6 +3,7 @@ import { handleFavorite } from "@store/favoriteSlice/favoriteSlice";
 import { useEditFavoriteProductMutation } from "@store/apiRTK/apiRTK";
 import { Link } from "react-router-dom";
 import { scrollToTop } from "@base/utils/scrollTop";
+import "./productStyle.scss"
 
 interface IProps {
   data: IProduct;
@@ -21,7 +22,7 @@ function ProductItem({ data }: IProps) {
   };
 
   return (
-    <div className="bg-white hover:shadow-lg transition relative">
+    <div className="bg-[#efefef] hover:shadow-lg transition overflow-hidden relative" id="product">
       <div className="flex flex-col  items-center justify-center relative">
         <span
           onClick={() => clickProductFavorite(data)}
