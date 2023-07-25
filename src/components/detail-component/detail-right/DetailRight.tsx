@@ -3,6 +3,7 @@ import clsx from "clsx";
 import { BsFire } from "react-icons/bs";
 import { currentPrice, discountPrice } from "@base/utils/infoPrice";
 import { BsHeart, BsHeartFill, BsPlus, BsDash } from "react-icons/bs";
+import { useEditFavoriteProductMutation } from "@store/apiRTK/apiRTK";
 
 interface IProps {
   data: IProduct;
@@ -45,6 +46,16 @@ function DetailRight({
     }
   }, [colorIndex]);
 
+  const [editProduct, status] = useEditFavoriteProductMutation()
+
+  const clickProductFavorite = (product: IProduct) => {
+    if (!product.isFovirite) {
+      editProduct({ ...product, isFovirite: true });
+    } else {
+      editProduct({ ...product, isFovirite: false });
+    }
+  };
+
   return (
     <div>
       <div className="flex gap-[20px] justify-between border-b pb-[12px] md:pb-[20px] lg:pb-[30px]">
@@ -61,7 +72,7 @@ function DetailRight({
               <div className="w-full animate-pulse h-[20px] bg-gray-200 rounded-full dark:bg-gray-700"></div>
             ) : (
               <div className="flex items-center gap-[5px]">
-                <span className="flex cursor-pointer">
+                <span className="flex cursor-pointer" onClick={() => clickProductFavorite(data)}>
                   {data.isFovirite ? (
                     <BsHeartFill className="text-[crimson] hover:!text-[crimson]" />
                   ) : (
@@ -131,7 +142,7 @@ function DetailRight({
                     colorIndex === index && "border-black border-[2px]",
                     selectSizeIndex !== null
                       ? productInfo.sizes[selectSizeIndex].count === 0 &&
-                          "opacity-[.7] border-dashed"
+                      "opacity-[.7] border-dashed"
                       : ""
                   )}
                   onClick={() => setColorIndex(index)}
@@ -186,7 +197,7 @@ function DetailRight({
                   className={clsx(
                     "btn-size-select relative flex items-center justify-center rounded-md w-[42px] h-[42px] border-[1px] border-[#898989]",
                     size.count === 0 &&
-                      "not-select-size border-dashed !cursor-not-allowed !opacity-[.7]",
+                    "not-select-size border-dashed !cursor-not-allowed !opacity-[.7]",
                     selectSizeIndex === index && "!border-[2px] !border-[black]"
                   )}
                   key={index}
@@ -233,8 +244,8 @@ function DetailRight({
                 className={clsx(
                   "py-[12px] px-[12px] text-[20px] hover:bg-[#eee] transition flex items-center justify-center text-center",
                   selectSizeIndex !== null &&
-                    sizes[selectSizeIndex].count === count &&
-                    "!cursor-not-allowed"
+                  sizes[selectSizeIndex].count === count &&
+                  "!cursor-not-allowed"
                 )}
                 disabled={
                   selectSizeIndex !== null
