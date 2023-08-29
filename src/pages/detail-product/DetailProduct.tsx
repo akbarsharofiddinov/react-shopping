@@ -15,7 +15,7 @@ function DetailProduct() {
   });
 
   return (
-    <section className="min-h-screen py-[27px] md:py-[35px] lg:py-[50px]">
+    <section className="min-h-[50vh] py-[27px] md:py-[35px] lg:py-[50px]">
       <div className="container">
         {data ? (
           <DetailComponent data={data} loading={loading} />

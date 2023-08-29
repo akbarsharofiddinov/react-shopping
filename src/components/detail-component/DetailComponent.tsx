@@ -37,7 +37,7 @@ function DetailComponent({ data, loading }: IProps) {
   };
 
   return (
-    <div>
+    <>
       <div className="flex gap-[20px]">
         <div className="flex-[1] p-[5px]">
           {loading ? (
@@ -95,7 +95,7 @@ function DetailComponent({ data, loading }: IProps) {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

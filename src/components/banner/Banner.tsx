@@ -1,13 +1,22 @@
 import React from "react";
-import { useGetBannersQuery } from "@store/apiRTK/apiRTK";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper";
-import Loading from "./Loading";
 
+// Banner Request
+
+import { useGetBannersQuery } from "@store/apiRTK/apiRTK";
+
+// Swiper
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, EffectCreative } from "swiper";
+import "swiper/css/pagination";
+
+// Loading & Errors
+
+import Loading from "./Loading";
 import ErrorNotFound from "./ErrorNotFoun";
+
 import NotData from "./NotData";
 import ServerError from "./ServerError";
-import "swiper/css/pagination";
 
 const Banner: React.FC = () => {
   const { data, isLoading, isError } = useGetBannersQuery();
@@ -20,13 +29,23 @@ const Banner: React.FC = () => {
       ) : data ? (
         data.length ? (
           <Swiper
+            effect="creative"
+            creativeEffect={{
+              prev: {
+                shadow: true,
+                translate: [0, 0, -400],
+              },
+              next: {
+                translate: ['100%', 0, 0],
+              },
+            }}
             loop={true}
             autoplay
             pagination={{
               dynamicBullets: true,
               clickable: true,
             }}
-            modules={[Autoplay, Pagination]}
+            modules={[Autoplay, Pagination, EffectCreative]}
             className="!pb-8"
           >
             {data?.map((banner, index) => (

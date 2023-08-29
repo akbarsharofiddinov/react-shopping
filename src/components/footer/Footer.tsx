@@ -3,33 +3,45 @@ import { BsFacebook, BsInstagram, BsTelegram, BsYoutube } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => (
-  <footer className="max-h-[40vh] min-h-[20vh] bg-[#333] text-white">
+  <footer className="md:min-h-[50vh] lg:min-h-[30vh] h-full bg-[#333] text-white">
     <div className="container">
-      <div className="flex justify-between items-start py-[30px]">
-        <div className="flex flex-col gap-[25px]">
-          <div className="">
-            <h1>У вас есть вопрос? Позвонить</h1>
-            <p className="text-[18px] font-normal sm:text-[20px] md:text-[22px] lg:text-[24px] md:font-bold my-[10px]">
+      <div className="grid justify-center text-center sm:text-start gap-[40px] sm:grid-cols-2 sm:gap-[40px] md:grid md:grid-cols-3 md:justify-start lg:flex lg:justify-between lg:items-start py-[30px]">
+        <div className="flex flex-col gap-[25px] text-[#d1d1d1]">
+          <div className="flex flex-col items-center md:items-start gap-[20px]">
+            <h1 className="flex flex-col items-start font-bold text-[23px] text-[#f0f0f0]">У вас есть вопрос ? <br /> <span>Позвонить</span></h1>
+            <p className="text-[22px] underline">
               +998901234567
             </p>
           </div>
-          <ul className="flex gap-[12px]">
-            <li className="flex items-center justify-center text-[21px] bg-[#d9d9d933] p-[10px] rounded-[10px] w-[37px] h-[37px]">
+          <ul className="flex gap-[12px] justify-center md:justify-normal">
+            <li className="flex items-center justify-center 
+                        bg-[#d9d9d933] 
+                        p-[10px] rounded-[10px] w-[40px] h-[40px] 
+                        text-[40px] transition-colors ease-in-out delay-100 hover:text-[#83a4fd]">
               <BsFacebook />
             </li>
-            <li className="flex items-center justify-center text-[21px] bg-[#d9d9d933] p-[10px] rounded-[10px] w-[37px] h-[37px]">
+            <li className="flex items-center justify-center 
+                        bg-[#d9d9d933] 
+                        p-[10px] rounded-[10px] w-[40px] h-[40px] 
+                        text-[40px] transition-colors ease-in-out delay-100 hover:text-[#4dbeff]">
               <BsTelegram />
             </li>
-            <li className="flex items-center justify-center text-[21px] bg-[#d9d9d933] p-[10px] rounded-[10px] w-[37px] h-[37px]">
+            <li className="flex items-center justify-center 
+                      bg-[#d9d9d933] 
+                      p-[10px] rounded-[10px] w-[40px] h-[40px] 
+                      text-[40px] transition-colors ease-in-out delay-100 hover:text-[#fd5d5d]">
               <BsInstagram />
             </li>
-            <li className="flex items-center justify-center text-[21px] bg-[#d9d9d933] p-[10px] rounded-[10px] w-[37px] h-[37px]">
+            <li className="flex items-center justify-center 
+                      bg-[#d9d9d933] 
+                      p-[10px] rounded-[10px] w-[40px] h-[40px] 
+                      text-[40px] transition-colors ease-in-out delay-100 hover:text-[#fc4949]">
               <BsYoutube />
             </li>
           </ul>
         </div>
-        <div className="flex flex-col gap-[25px]">
-          <h1 className="text-[20px]">Компания</h1>
+        <div className="flex flex-col gap-[25px] text-[#d1d1d1]">
+          <h1 className="text-[23px] font-bold text-[#f0f0f0]">Компания</h1>
           <ul className="flex flex-col gap-[8px]">
             <li>
               <p>B2B савдоси</p>
@@ -45,8 +57,8 @@ const Footer: React.FC = () => (
             </li>
           </ul>
         </div>
-        <div className="flex flex-col gap-[25px]">
-          <h1 className="text-[20px]">Информация</h1>
+        <div className="flex flex-col gap-[25px] text-[#d1d1d1]">
+          <h1 className="text-[23px] font-bold text-[#f0f0f0]">Информация</h1>
           <ul className="flex flex-col gap-[8px]">
             <li>
               <p>Бесплатная доставка</p>
@@ -65,8 +77,8 @@ const Footer: React.FC = () => (
             </li>
           </ul>
         </div>
-        <div className="flex flex-col gap-[25px]">
-          <h1 className="text-[20px]">Служба поддержки</h1>
+        <div className="flex flex-col gap-[25px] text-[#d1d1d1]">
+          <h1 className="text-[23px] font-bold text-[#f0f0f0]">Служба поддержки</h1>
           <ul className="flex flex-col gap-[8px]">
             <li>
               <p>Покупка в рассрочку</p>
@@ -81,13 +93,13 @@ const Footer: React.FC = () => (
               <p>Часто задаваемые вопросы</p>
             </li>
           </ul>
-          <button className="bg-transparent py-[7px] px-[20px] border-2 border-dashed border-[#d9d9d933] rounded-[7px]">
+          <button className="bg-transparent border-2 border-dashed border-[#d9d9d933] rounded-[7px] transition ease-in-out delay-100 hover:border-[#4dbeffb2]">
             <Link
               to="https://t.me/@akbar_9425"
-              className="text-white flex items-center justify-between"
+              className="text-white flex items-center justify-between gap-[10px] py-[7px] px-[20px] transition ease-in-out delay-100 hover:text-[#4dbeff]"
             >
               <BsTelegram className="text-[20px]" />
-              Узнай свой бонус
+              <span>Узнай свой бонус</span>
             </Link>
           </button>
         </div>
